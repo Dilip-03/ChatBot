@@ -39,7 +39,7 @@ public class Forgot extends HttpServlet {
 				out.println("<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>");
 				out.println("<script>");
 				out.println("$(document).ready(function(){");
-				out.println("swal('Great!', 'Forget Updation Successfully', 'success')");
+				out.println("swal('Great!', 'Forgot Updation Successfully', 'success')");
 				out.println("});");
 				out.println("</script>");
 				RequestDispatcher rd= request.getRequestDispatcher("login.jsp");
@@ -50,7 +50,7 @@ public class Forgot extends HttpServlet {
 				out.println("<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>");
 				out.println("<script>");
 				out.println("$(document).ready(function(){");
-				out.println("swal(' Forget Updation unsuccessfully!', '', 'error');");
+				out.println("swal(' Forgot Updation unsuccessfully!', '', 'error');");
 				out.println("});");
 				out.println("</script>");
 				RequestDispatcher rd= request.getRequestDispatcher("login.jsp");

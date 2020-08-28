@@ -20,6 +20,11 @@ body{
 }
 </style>
 <body> 
+	<%
+      response.setHeader("Cache-Control","no-cache,no-store,must-revalidate");//HTTP 1.1
+      response.setHeader("Pragma","no-cache"); //HTTP 1.0
+      response.setHeader("Expires","0");//proxies
+	%>
    <nav class="navbar navbar-light">
             <h3> Trust Bank  </h3>
 		    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
